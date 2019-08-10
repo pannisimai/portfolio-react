@@ -3,6 +3,6 @@ import { Link } from "react-router-dom";
 
 export default class Home extends Component {
   render() {
-    return <div>it must be home here</div>;
+    return <div className="content">it must be home here</div>;
   }
 }

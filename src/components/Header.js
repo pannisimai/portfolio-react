@@ -3,7 +3,7 @@ import React from "react";
 export default function Header() {
   return (
     <div>
-      <h1>Panni Simai</h1>
+      <h1 className="name">Panni Simai</h1>
     </div>
   );
 }

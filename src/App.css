@@ -1,28 +1,18 @@
 body {
-  /* background: #3494e6; 
-  background: -webkit-linear-gradient(
-    to right,
-    #ec6ead,
-    #3494e6
-  ); 
-  background: linear-gradient(
-    to right,
-    #ec6ead,
-    #3494e6
-  );   */
-
-  /* background: linen;
-  background: -webkit-linear-gradient(to right, #c6426e, #642b73);
-  background: linear-gradient(to right, #c6426e, #642b73); */
-
   background: linen;
-
   width: 100vw;
   height: 100vh;
   overflow: hidden;
   font-family: Work Sans;
-  font-size: 48px;
+  font-size: 42px;
   line-height: 1, 5;
+}
+
+.name {
+  width: 100vw;
+  text-align: center;
+  margin: 0 0 4vh 0;
+  padding: 10px;
 }
 
 .link {
@@ -45,17 +35,16 @@ body {
   transform: translate(-50%, -50%);
 } */
 
-h1 {
-  position: fixed;
-  top: 40px;
-  left: 50%;
-  transform: translate(-50%, 0);
+.content {
+  margin: 0 auto;
+  background-color: palevioletred;
+  width: 70vw;
 }
 
 .about {
   position: fixed;
   top: 50%;
-  right: 40px;
+  right: 4vw;
   transform-origin: 100% 0;
   transform: rotate(90deg) translate(50%, 0);
 }
@@ -63,7 +52,7 @@ h1 {
 .projects {
   position: fixed;
   top: 50%;
-  left: 40px;
+  left: 4vw;
   transform-origin: 0 0;
   transform: rotate(-90deg) translate(-50%, 0);
 }
@@ -71,9 +60,12 @@ h1 {
 .contact {
   position: fixed;
   left: 50%;
-  bottom: 40px;
-
+  bottom: 4vh;
   transform: rotate(180deg) translate(50%, 0);
+}
+
+.contact-list {
+  list-style: none;
 }
 /*title */
 
